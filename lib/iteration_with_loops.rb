@@ -2,7 +2,18 @@ def find_even_values(array_1)
   
   [[1,2,3], [4,5,6], [7,8,9]]
   
-  
+  array_row = 0 
+   while array_row < array_1[array_row] do
+     
+     array_index = 0
+     while array_1[array_index] % 2 == 0 
+        p array_1[array_index]
+        
+        array_index +=1
+     end
+     
+     array_row +=1
+   end
   
   
   #array_1 = [[1,2,3], [4,5,6], [7,8,9]]
