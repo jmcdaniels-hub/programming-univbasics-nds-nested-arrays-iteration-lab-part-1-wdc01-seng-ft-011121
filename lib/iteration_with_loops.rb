@@ -3,12 +3,15 @@ def find_even_values(array_1)
   [[1,2,3], [4,5,6], [7,8,9]]
   
   array_row = 0 
-   while array_row < array_1.length do
+   while array_row < array_1.count do
      
      array_index = 0
-     while array_index < array_1[array_row].length
+     while array_index < array_1[array_row].count
+           if array_1[array_row][array_index].even?
+             p
       
-        p (array_1[array_index] % 2 == 0)
+        if 
+        p array_1[array_index] % 2 == 0
         array_index +=1
      end
      
