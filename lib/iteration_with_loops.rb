@@ -8,13 +8,10 @@ def find_even_values(array_1)
      array_index = 0
      while array_index < array_1[array_row].count
            if array_1[array_row][array_index].even?
-             p
-      
-        if 
-        p array_1[array_index] % 2 == 0
+             p array_1[array_row][array_index].even?
+           end
         array_index +=1
      end
-     
      array_row +=1
    end
   end
